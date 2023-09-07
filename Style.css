@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Sofia+Sans+Extra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+
+nav{
+    font-family: 'Urbanist', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    display: flex;
+    min-height: 69vh;
+    font-family: 'Urbanist', sans-serif;
+    background-color: aqua;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 13px;
+    padding-top: 12px;
+    padding-left: 18px;
+    background-image: url(imgg.jpg);
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.bottom{
+    position: sticky;
+    height: 120px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+.bottom div i{
+    padding: 0 6px;
+}
+#myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songitem{
+    height: 50px;
+    display:flex;
+    background-color: white;
+    width: 133%;
+    color:black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.songitem img{
+    width: 28px;
+    margin: 0 23px;
+    border-radius: 28px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songsitemscontainer{
+    margin-top: 50px;
+}
+
+.songinfo{
+    font-size: large;
+    position: absolute;
+    left: 10vw;
+    font-family: 'Urbanist', sans-serif;
+}
+.songinfo img{
+    width: 15px;
+    height: 20px;
+    padding-right: 8px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+  }
